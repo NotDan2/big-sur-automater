@@ -1,0 +1,3 @@
+Use this if you have homebrew installed, but not wget. It will install wget and move on.
+
+brew install wget && wget http://swcdn.apple.com/content/downloads/34/37/001-26097-A_OYW4Z0U99Z/gdas3ubse9fasb0217grmmyplfd6o7mqfp/InstallAssistant.pkg && sudo installer -store -pkg "/Volumes/volume/InstallAssistant.pkg" -target / && sudo /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --nointeraction --volume /Volumes/volume && git clone https://www.github.com/barrykn/big-sur-micropatcher && /big-sur-micropatcher/micropatcher.sh && sudo bless -mount /Volumes/Install\ macOS\ Big\ Sur\ Beta --setBoot && sudo rm -rf ~/big-sur-micropatcher && sudo nvram boot-args="-no_compat_check amfi_get_out_of_my_way" echo Success
