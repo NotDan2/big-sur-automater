@@ -56,4 +56,6 @@ iMessage: json.us@icloud.com
 Telegram: nonforgettable
 Public e-mail: joowhanlee.devel@gmail.com json.us@icloud.com 
 
+ALL CREDIT GOES TO THE CREATORS NONFORGETTABLE(all scripts and files) AND BARRYKN(patcher)
+
 
